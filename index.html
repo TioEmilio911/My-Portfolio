@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <div class="nombre">Alex Fuentes</div>
+        <nav>
+        <ul>
+            <li><a href="#acerca">About</a></li>
+            <li><a href="#proyectos">Project Details</a></li>
+            <li><a href="#habilidades">Skills</a></li>
+            <li><a href="#recomendaciones">Recommendations</a></li>
+        </ul>
+        </nav>
+    </div>
+  </header>
+
+  <section id="acerca">
+    <h2>About Me</h2>
+    <div class="perfil">
+      <img src="img/image.jpg" alt="Profile Photo">
+      <p>Hello, I'm Alex Fuentes, a recently graduated student in Computer Engineering passionate about technology and software/web development. I love AI (thanks to the movies) and learning about new technologies to build innovative things.
+        <br><br>
+        Throughout my studies, I've gained skills in HTML, CSS, JavaScript, Java, Python, and other tools that have allowed me to create functional and visually appealing digital solutions. I'm known for being responsible, punctual, focused on my work, and eager to continue growing in the world of technology.</p>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Projects</h2>
+    <div class="proyecto">Nothing yet</div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Skills</h2>
+    <div class="habilidad">
+      <img src="img/htmllogo.png" alt="HTML"> HTML - Semantic markup
+    </div>
+    <div class="habilidad">
+      <img src="img/csslogo.png" alt="CSS"> CSS - Modern styling design
+    </div>
+    <div class="habilidad">
+      <img src="img/javascriptlogo.png" alt="JavaScript"> JavaScript - Interactivity
+    </div>
+    <div class="habilidad">
+      <img src="img/pythonlogo.png" alt="Python"> Python - Automation and efficient scripts
+    </div>
+    <div class="habilidad">
+      <img src="img/mysqllogo.png" alt="MySql"> MySQL - Relational database design and management
+    </div>
+    <div class="habilidad">
+      <img src="img/mongodblogo.png" alt="MongoDB"> MongoDB - NoSQL data handling and flexible structures
+    </div>
+    <div class="habilidad">
+      <img src="img/javalogo.png" alt="Java"> Java - Mobile application development
+    </div>
+    <div class="habilidad">
+      <img src="img/androidstudiologo.png" alt="Android Studio"> Android Studio - Mobile development
+    </div>
+    <div class="habilidad">
+      <img src="img/oraclelogo.png" alt="Oracle"> Oracle SQL Developer – Database and schema modeling
+    </div>
+  </section>
+
+  <section id="recomendaciones">
+    <h2>Recommendations</h2>
+    
+    <div id="contenedor-recomendaciones">
+
+    </div>
+
+    <form id="form-recomendacion">
+        <label for="nueva-recomendacion">Add a new recommendation:</label><br>
+        <textarea id="nueva-recomendacion" rows="3" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <div class="inicio-icono" onclick="window.scrollTo(0, 0);">↑</div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
